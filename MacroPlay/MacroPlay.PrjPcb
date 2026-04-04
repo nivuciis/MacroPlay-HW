@@ -84,16 +84,16 @@ GenerateClassCluster=0
 DocumentUniqueId=GOVQVHNV
 
 [Document3]
-DocumentPath=[03] - A4.SchDoc
+DocumentPath=[03] - MacroPad.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -101,40 +101,23 @@ GenerateClassCluster=0
 DocumentUniqueId=YFDTFRPB
 
 [Document4]
-DocumentPath=[04] - A3.SchDoc
+DocumentPath=[04] - REVISION HISTORY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=XUFWDCSE
+DocumentUniqueId=LGSJOEHW
 
 [Document5]
-DocumentPath=[05] - REVISION HISTORY.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QIWPOGFT
-
-[Document6]
 DocumentPath=MacroPlay.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=MacroPlay.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BXNWUCIY
 
-[Document8]
+[Document7]
 DocumentPath=MacroPlay.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UPYVCTEO
 
-[Document9]
+[Document8]
 DocumentPath=MacroPlay.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=MacroPlay.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=MacroPlay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NBQAKXVG
 
-[Document12]
+[Document11]
 DocumentPath=MacroPlay.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,28 +237,28 @@ GenerateClassCluster=0
 DocumentUniqueId=ULGTLAGS
 
 [Parameter1]
-Name=Website
-Value=http://www.google.com
+Name=CheckedProject
+Value=Thiago Laurentino
 
 [Parameter2]
-Name=VersionRevision
-Value=P1
-
-[Parameter3]
-Name=TitleProject
-Value=MacroPlay
-
-[Parameter4]
-Name=DesignedProject
-Value=Vinicius Carvalho
-
-[Parameter5]
 Name=Company
 Value=Laurentino LTDA
 
+[Parameter3]
+Name=DesignedProject
+Value=Vinicius Carvalho
+
+[Parameter4]
+Name=TitleProject
+Value=MacroPlay
+
+[Parameter5]
+Name=VersionRevision
+Value=P1
+
 [Parameter6]
-Name=CheckedProject
-Value=Thiago Laurentino
+Name=Website
+Value=http://www.google.com
 
 [Configuration1]
 Name=Sources
