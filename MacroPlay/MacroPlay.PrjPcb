@@ -237,28 +237,28 @@ GenerateClassCluster=0
 DocumentUniqueId=ULGTLAGS
 
 [Parameter1]
-Name=CheckedProject
-Value=Thiago Laurentino
+Name=Website
+Value=http://www.google.com
 
 [Parameter2]
-Name=Company
-Value=Laurentino LTDA
-
-[Parameter3]
-Name=DesignedProject
-Value=Vinicius Carvalho
-
-[Parameter4]
-Name=TitleProject
-Value=MacroPlay
-
-[Parameter5]
 Name=VersionRevision
 Value=P1
 
+[Parameter3]
+Name=TitleProject
+Value=MacroPlay
+
+[Parameter4]
+Name=DesignedProject
+Value=Vinicius Carvalho
+
+[Parameter5]
+Name=Company
+Value=Laurentino LTDA
+
 [Parameter6]
-Name=Website
-Value=http://www.google.com
+Name=CheckedProject
+Value=Thiago Laurentino
 
 [Configuration1]
 Name=Sources
