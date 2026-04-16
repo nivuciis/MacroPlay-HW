@@ -1,0 +1,45 @@
+Change Footprint: Cannot match pads with new footprint in component :SW7 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW8 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW9 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW10 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW11 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW12 Footprint:SW_PG151101S11
+Added Component: Designator=SW4(SW_PG151101S11)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SW5(SW_PG151101S11)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SW6(SW_PG151101S11)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_2 Pin=SW4-1
+Added Pin To Net: NetName=+3V3 Pin=SW4-2
+Added Pin To Net: NetName=NetC5_2 Pin=SW5-1
+Added Pin To Net: NetName=+3V3 Pin=SW5-2
+Added Pin To Net: NetName=NetC6_2 Pin=SW6-1
+Added Pin To Net: NetName=+3V3 Pin=SW6-2
+Added Member To Class: ClassName=[04] - KEYS Member=Component SW4 PG151101S11
+Added Member To Class: ClassName=[04] - KEYS Member=Component SW5 PG151101S11
+Added Member To Class: ClassName=[04] - KEYS Member=Component SW6 PG151101S11

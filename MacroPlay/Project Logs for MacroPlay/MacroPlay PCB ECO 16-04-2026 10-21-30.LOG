@@ -1,0 +1,42 @@
+Change Footprint: Cannot match pads with new footprint in component :SW10 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW11 Footprint:SW_PG151101S11
+Change Footprint: Cannot match pads with new footprint in component :SW12 Footprint:SW_PG151101S11
+Added Component: Designator=SW7(SW_PG151101S11)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SW8(SW_PG151101S11)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SW9(SW_PG151101S11)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC7_2 Pin=SW7-1
+Added Pin To Net: NetName=+3V3 Pin=SW7-2
+Added Pin To Net: NetName=NetC8_2 Pin=SW8-1
+Added Pin To Net: NetName=+3V3 Pin=SW8-2
+Added Pin To Net: NetName=NetC9_2 Pin=SW9-1
+Added Pin To Net: NetName=+3V3 Pin=SW9-2
+Added Member To Class: ClassName=[04] - KEYS Member=Component SW7 PG151101S11
+Added Member To Class: ClassName=[04] - KEYS Member=Component SW8 PG151101S11
+Added Member To Class: ClassName=[04] - KEYS Member=Component SW9 PG151101S11
