@@ -1,89 +1,13 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\ViniCarvalho\Desktop\MacroPlay-HW\MacroPlay\MacroPlay.PcbDoc
-Date     : 24/04/2026
-Time     : 13:59:36
+PCB File : C:\Users\nivuc\OneDrive\Área de Trabalho\PCB\MacroPlay\MacroPlay-HW\MacroPlay\MacroPlay.PcbDoc
+Date     : 26/04/2026
+Time     : 17:03:14
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad MH1-(90.5mm,6mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad MH2-(90.5mm,78.25mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad MH3-(1.25mm,78mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad MH4-(1mm,7mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-(40mm,13mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-(40mm,13mm) on Multi-Layer And Polygon Region (7 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-(42.65mm,16.9mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-(42.65mm,16.9mm) on Multi-Layer And Polygon Region (7 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-(45.2mm,10.525mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-(45.2mm,10.525mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW10-(40mm,69.125mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW10-(40mm,69.125mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW10-(42.65mm,73.025mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW10-(42.65mm,73.025mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW10-(45.2mm,66.65mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW10-(45.2mm,66.65mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW11-(59.75mm,69.125mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW11-(59.75mm,69.125mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW11-(62.4mm,73.025mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW11-(62.4mm,73.025mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW11-(64.95mm,66.65mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW11-(64.95mm,66.65mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW12-(79.275mm,69.125mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW12-(79.275mm,69.125mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW12-(81.925mm,73.025mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW12-(81.925mm,73.025mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW12-(84.475mm,66.65mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW12-(84.475mm,66.65mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW2-(59.75mm,13mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW2-(59.75mm,13mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW2-(62.4mm,16.9mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW2-(62.4mm,16.9mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW2-(64.95mm,10.525mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW2-(64.95mm,10.525mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW3-(79.275mm,13mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW3-(79.275mm,13mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW3-(81.925mm,16.9mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW3-(81.925mm,16.9mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW3-(84.475mm,10.525mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW3-(84.475mm,10.525mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW4-(40mm,31.525mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW4-(40mm,31.525mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW4-(42.65mm,35.425mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW4-(42.65mm,35.425mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW4-(45.2mm,29.05mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW4-(45.2mm,29.05mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW5-(59.75mm,31.525mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW5-(59.75mm,31.525mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW5-(62.4mm,35.425mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW5-(62.4mm,35.425mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW5-(64.95mm,29.05mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW5-(64.95mm,29.05mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW6-(79.275mm,31.525mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW6-(79.275mm,31.525mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW6-(81.925mm,35.425mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW6-(81.925mm,35.425mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW6-(84.475mm,29.05mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW6-(84.475mm,29.05mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW7-(40mm,50.5mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW7-(40mm,50.5mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW7-(42.65mm,54.4mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW7-(42.65mm,54.4mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW7-(45.2mm,48.025mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW7-(45.2mm,48.025mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW8-(59.75mm,50.5mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW8-(59.75mm,50.5mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW8-(62.4mm,54.4mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW8-(62.4mm,54.4mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW8-(64.95mm,48.025mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW8-(64.95mm,48.025mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW9-(79.275mm,50.5mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW9-(79.275mm,50.5mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW9-(81.925mm,54.4mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW9-(81.925mm,54.4mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW9-(84.475mm,48.025mm) on Multi-Layer And Polygon Region (107 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW9-(84.475mm,48.025mm) on Multi-Layer And Polygon Region (188 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
-Rule Violations :76
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
@@ -97,48 +21,8 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
-   Violation between Hole Size Constraint: (3.4mm > 2.54mm) Pad MH1-(90.5mm,6mm) on Multi-Layer Actual Hole Size = 3.4mm
-   Violation between Hole Size Constraint: (3.4mm > 2.54mm) Pad MH2-(90.5mm,78.25mm) on Multi-Layer Actual Hole Size = 3.4mm
-   Violation between Hole Size Constraint: (3.4mm > 2.54mm) Pad MH3-(1.25mm,78mm) on Multi-Layer Actual Hole Size = 3.4mm
-   Violation between Hole Size Constraint: (3.4mm > 2.54mm) Pad MH4-(1mm,7mm) on Multi-Layer Actual Hole Size = 3.4mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW1-(40mm,13mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW1-(42.65mm,16.9mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW1-(45.2mm,10.525mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW10-(40mm,69.125mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW10-(42.65mm,73.025mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW10-(45.2mm,66.65mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW11-(59.75mm,69.125mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW11-(62.4mm,73.025mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW11-(64.95mm,66.65mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW12-(79.275mm,69.125mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW12-(81.925mm,73.025mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW12-(84.475mm,66.65mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW2-(59.75mm,13mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW2-(62.4mm,16.9mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW2-(64.95mm,10.525mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW3-(79.275mm,13mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW3-(81.925mm,16.9mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW3-(84.475mm,10.525mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW4-(40mm,31.525mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW4-(42.65mm,35.425mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW4-(45.2mm,29.05mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW5-(59.75mm,31.525mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW5-(62.4mm,35.425mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW5-(64.95mm,29.05mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW6-(79.275mm,31.525mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW6-(81.925mm,35.425mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW6-(84.475mm,29.05mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW7-(40mm,50.5mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW7-(42.65mm,54.4mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW7-(45.2mm,48.025mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW8-(59.75mm,50.5mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW8-(62.4mm,54.4mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW8-(64.95mm,48.025mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (4.089mm > 2.54mm) Pad SW9-(79.275mm,50.5mm) on Multi-Layer Actual Hole Size = 4.089mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW9-(81.925mm,54.4mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad SW9-(84.475mm,48.025mm) on Multi-Layer Actual Hole Size = 3mm
-Rule Violations :40
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
+Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -147,6 +31,9 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.16mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (OnLayer('Bottom Overlay')),((IsText OR IsTrack) AND OnLayer('Bottom Overlay'))
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
@@ -159,6 +46,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 116
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:00
