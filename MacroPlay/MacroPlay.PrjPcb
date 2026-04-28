@@ -270,6 +270,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LGSJOEHW
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MacroPlay\Design Rule Check - MacroPlay.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=CheckedProject
 Value=Thiago Laurentino
