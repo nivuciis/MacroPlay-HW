@@ -276,8 +276,7 @@ UniqueId=fa81dfc3-1950-46d8-b362-4f56fa0feedf
 Description=BuzzPTH
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=BZ1|UniqueId=\VIDJFPDC|Kind=0|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1303,7 +1302,8 @@ PartTypes=0
 
 [NetInfos]
 Net1=NetName=+3V3|NetColor=$00FF6EFF
-Net2=NetName=GND|NetColor=clWhite
+Net2=NetName=+VBUS|NetColor=$006E6EFF
+Net3=NetName=GND|NetColor=clWhite
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
