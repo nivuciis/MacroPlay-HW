@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Project_Name.OutJob
+Name=MacroPlay.OutJob
 Description=
 TargetOutputMedium=Print Job
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=OneNote (Desktop)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -194,6 +194,20 @@ OutputEnabled10_OutputMedium3=0
 OutputEnabled10_OutputMedium4=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration10_Name1=ColumnNameFormat
+Configuration10_Item1=CaptionAsName
+Configuration10_Name2=General
+Configuration10_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration10_Name3=GroupOrder
+Configuration10_Item3=
+Configuration10_Name4=VisibleOrder
+Configuration10_Item4=Line #=54|Comment=127|Description=82|Designator=80|Quantity=67|Manufacturer 1=129|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration10_Name5=VisibleOrder_Base
+Configuration10_Item5=Line #=54|Comment=127|Description=82|Designator=80|Quantity=67|Manufacturer 1=129|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration10_Name6=VisibleOrder_Consolidated
+Configuration10_Item6=Line #=54|Comment=138|Description=100|Designator=100|Quantity=67|Manufacturer 1=129|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration10_Name7=VisibleOrder_Flat
+Configuration10_Item7=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=129|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 OutputType11=ExportSTEP
 OutputName11=Export STEP
 OutputCategory11=Export
@@ -233,7 +247,7 @@ Configuration13_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|A
 [PublishSettings]
 OutputFilePath2=
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Project_Name
+OutputBasePath2=Project Outputs for MacroPlay
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -260,7 +274,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Project_Name
+OutputBasePath3=Project Outputs for MacroPlay
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -273,7 +287,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Project_Name
+OutputBasePath4=Project Outputs for MacroPlay
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
