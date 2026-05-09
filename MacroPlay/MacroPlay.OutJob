@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [PublishSettings]
-OutputFilePath2=C:\Users\ViniCarvalho\Desktop\MacroPlay-HW\MacroPlay\.PDF
+OutputFilePath2=C:\Users\nivuc\OneDrive\Área de Trabalho\PCB\MacroPlay\MacroPlay-HW\MacroPlay\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\ViniCarvalho\Desktop\MacroPlay-HW\MacroPlay\
+OutputBasePath2=C:\Users\nivuc\OneDrive\Área de Trabalho\PCB\MacroPlay\MacroPlay-HW\MacroPlay\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -94,7 +94,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\ViniCarvalho\Desktop\MacroPlay-HW\MacroPlay\.PDF
+RelativeOutputPath2=C:\Users\nivuc\OneDrive\Área de Trabalho\PCB\MacroPlay\MacroPlay-HW\MacroPlay\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1

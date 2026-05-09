@@ -1,0 +1,6 @@
+Added Component: Designator=I1(4PIN_INTERFACE)
+Add component (AddParameter): Name = ".Mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=[05] - LEDS Member=Component D25 WS2812B-B
+Added Member To Class: ClassName=[03] - MICROCONTROLLER Member=Component I1 4PIN-INTERFACE
