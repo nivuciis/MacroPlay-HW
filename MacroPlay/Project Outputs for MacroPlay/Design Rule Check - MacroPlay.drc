@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ViniCarvalho\Desktop\MacroPlay-HW\MacroPlay\MacroPlay.PcbDoc
-Date     : 14/05/2026
-Time     : 16:49:49
+Date     : 15/05/2026
+Time     : 13:22:03
 
-Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0mil) (IsBoardCutoutRegion),(IsPad)
+Processing Rule : Clearance Constraint (Gap=0mm) (IsBoardCutoutRegion),(IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -18,37 +18,37 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=6.299mil) (Max=393.701mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.16mm) (Max=10mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=393.701mil) (All)
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=6.299mil) (IsPad),(All)
+Processing Rule : Silk To Solder Mask (Clearance=0.16mm) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=0mil) (OnLayer('Top Overlay')),((IsText OR IsTrack) AND OnLayer('Top Overlay'))
+Processing Rule : Silk to Silk (Clearance=0mm) (OnLayer('Top Overlay')),((IsText OR IsTrack) AND OnLayer('Top Overlay'))
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=0mil) (OnLayer('Bottom Overlay')),((IsText OR IsTrack) AND OnLayer('Bottom Overlay'))
+Processing Rule : Silk to Silk (Clearance=0mm) (OnLayer('Bottom Overlay')),((IsText OR IsTrack) AND OnLayer('Bottom Overlay'))
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=1968.504mil) (Prefered=500mil) (All)
+Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
