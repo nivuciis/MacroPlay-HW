@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=BuzzPTH
+CurrentVariant=PRODUCTION
 
 [Preferences]
 PrefsVaultGUID=
@@ -273,39 +273,219 @@ DocumentUniqueId=LGSJOEHW
 
 [ProjectVariant1]
 UniqueId=fa81dfc3-1950-46d8-b362-4f56fa0feedf
-Description=BuzzPTH
+Description=PROTOTYPE
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=f335dba5-4881-4de8-a292-d58264105386
+Description=PRODUCTION
 AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for MacroPlay\Design Rule Check - MacroPlay.html
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\rout\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MacroPlay\NC Drill\MacroPlay.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MacroPlay\GerberX2\MacroPlay.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GM
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GM28
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for MacroPlay\NC Drill\MacroPlay.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for MacroPlay\Gerber\MacroPlay.REP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for MacroPlay\GerberX2\MacroPlay.REP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for MacroPlay\ODB\MacroPlay.REP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for MacroPlay\NC Drill\MacroPlay.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for MacroPlay\ODB\odb\steps\pcb\layers\rout\tools
+DItemRevisionGUID=
+
 [Parameter1]
-Name=CheckedProject
-Value=Thiago Laurentino
+Name=Website
+Value=https://github.com/nivuciis/MacroPlay-HW
 
 [Parameter2]
-Name=Company
-Value=Laurentino LTDA
-
-[Parameter3]
-Name=DesignedProject
-Value=Vinicius Carvalho
-
-[Parameter4]
-Name=TitleProject
-Value=MacroPlay
-
-[Parameter5]
 Name=VersionRevision
 Value=P1
 
+[Parameter3]
+Name=TitleProject
+Value=MacroPlay-HW
+
+[Parameter4]
+Name=DesignedProject
+Value=Vinicius Carvalho
+
+[Parameter5]
+Name=Company
+Value=MacroPlay
+
 [Parameter6]
-Name=Website
-Value=http://www.google.com
+Name=CheckedProject
+Value=Thiago Laurentino
 
 [Configuration1]
 Name=Sources
@@ -347,12 +527,12 @@ Wir_PrintColor=0
 Ldr_PrintColor=0
 Esd_PrintColor=0
 SCH_ExpandLogicalToPhysical=-1
-SCH_VariantName=BuzzPTH
+SCH_VariantName=PRODUCTION
 SCH_ExpandComponentDesignators=-1
-SCH_ExpandNetlabels=0
-SCH_ExpandPorts=0
-SCH_ExpandSheetNumber=0
-SCH_ExpandDocumentNumber=0
+SCH_ExpandNetlabels=-1
+SCH_ExpandPorts=-1
+SCH_ExpandSheetNumber=-1
+SCH_ExpandDocumentNumber=-1
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 

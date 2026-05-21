@@ -1,12 +1,13 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [MacroPlay.PcbDoc]
-   Generated File[MacroPlay.TXT]
-   Generated File[MacroPlay.LDP]
-   Generated File[MacroPlay.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 16:12:13 On 15/05/2026
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [PRODUCTION] of BOM Document [MacroPlay.BomDoc]
 
 
-Files Generated   : 3
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 13:43:59 On 15/05/2026
+Finished Output Generation At 16:12:14 On 15/05/2026

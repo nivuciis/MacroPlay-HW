@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: MacroPlay.PcbDoc   15/05/2026  13:43:58
+NCDrill File Report For: MacroPlay.PcbDoc   15/05/2026  16:11:54
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : MacroPlay.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             121       PTH        834.47mm (32.85inch)
+T1      0.3mm (12mil)                                             Round             121       PTH        834.36mm (32.85inch)
 T2      0.9mm (35mil)                                             Round             2         PTH        7.60mm (0.30inch)
 T3      0.991mm (39mil)                                           Round             5         PTH        24.50mm (0.96inch)
 T4      1.2mm (47mil)                                             Round             53        PTH        190.97mm (7.52inch)

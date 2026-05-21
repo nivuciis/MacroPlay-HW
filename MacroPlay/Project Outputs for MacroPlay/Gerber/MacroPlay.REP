@@ -2,21 +2,36 @@
 FileName = MacroPlay.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Overlay
-      File : MacroPlay.GTO
+Generating : Top Paste
+      File : MacroPlay.GTP
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D11
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Manufacturing Notes
+      File : MacroPlay.GM3
+
+    Adding Layer      : Manufacturing Notes
+
+
+Used DCodes :
     D12
-    D13
-    D14
-    D15
-    D16
-    D17
+    D34
+    D51
+    D52
 *************************************************************
 
 *************************************************************
@@ -42,6 +57,35 @@ Used DCodes :
     D38
     D39
     D40
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : MacroPlay.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : MacroPlay.GM28
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D53
 *************************************************************
 
 *************************************************************
@@ -132,25 +176,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : MacroPlay.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D19
-    D20
-    D21
-    D22
-*************************************************************
-
-*************************************************************
 Generating : Bottom Paste
       File : MacroPlay.GBP
 
@@ -164,31 +189,6 @@ Generating : Bottom Paste
 Used DCodes :
     D41
     D42
-*************************************************************
-
-*************************************************************
-Generating : Manufacturing Notes
-      File : MacroPlay.GM3
-
-    Adding Layer      : Manufacturing Notes
-
-
-Used DCodes :
-    D12
-    D34
-    D51
-    D52
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : MacroPlay.GM28
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D53
 *************************************************************
 
 *************************************************************
