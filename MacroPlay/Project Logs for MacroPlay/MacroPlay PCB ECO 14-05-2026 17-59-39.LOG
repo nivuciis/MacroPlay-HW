@@ -1,0 +1,42 @@
+Added Component: Designator=CN1(12PINHEADER)
+Added Pin To Net: NetName=GND Pin=CN1-1
+Added Pin To Net: NetName=GND Pin=CN1-8
+Added Pin To Net: NetName=+3V3 Pin=CN1-12
+Added Pin To Net: NetName=+VBUS Pin=CN1-13
+Added Pin To Net: NetName=ADC0 Pin=CN1-9
+Added Pin To Net: NetName=ADC0 Pin=U1-GP26_A0
+Added Pin To Net: NetName=ADC0 Pin=U1-GP26_A0
+Added Net: Name=ADC0
+Added Pin To Net: NetName=ADC1 Pin=CN1-10
+Added Pin To Net: NetName=ADC1 Pin=U1-GP27_A1
+Added Pin To Net: NetName=ADC1 Pin=U1-GP27_A1
+Added Net: Name=ADC1
+Added Pin To Net: NetName=ADC2 Pin=CN1-11
+Added Pin To Net: NetName=ADC2 Pin=U1-GP28_A2
+Added Pin To Net: NetName=ADC2 Pin=U1-GP28_A2
+Added Net: Name=ADC2
+Added Pin To Net: NetName=GP17 Pin=CN1-2
+Added Pin To Net: NetName=GP17 Pin=U1-GP17
+Added Pin To Net: NetName=GP17 Pin=U1-GP17
+Added Net: Name=GP17
+Added Pin To Net: NetName=GP18 Pin=CN1-3
+Added Pin To Net: NetName=GP18 Pin=U1-GP18
+Added Pin To Net: NetName=GP18 Pin=U1-GP18
+Added Net: Name=GP18
+Added Pin To Net: NetName=GP19 Pin=CN1-4
+Added Pin To Net: NetName=GP19 Pin=U1-GP19
+Added Pin To Net: NetName=GP19 Pin=U1-GP19
+Added Net: Name=GP19
+Added Pin To Net: NetName=GP20 Pin=CN1-5
+Added Pin To Net: NetName=GP20 Pin=U1-GP20
+Added Pin To Net: NetName=GP20 Pin=U1-GP20
+Added Net: Name=GP20
+Added Pin To Net: NetName=GP21 Pin=CN1-6
+Added Pin To Net: NetName=GP21 Pin=U1-GP21
+Added Pin To Net: NetName=GP21 Pin=U1-GP21
+Added Net: Name=GP21
+Added Pin To Net: NetName=GP22 Pin=CN1-7
+Added Pin To Net: NetName=GP22 Pin=U1-GP22
+Added Pin To Net: NetName=GP22 Pin=U1-GP22
+Added Net: Name=GP22
+Added Member To Class: ClassName=[03] - MICROCONTROLLER Member=Component CN1 12PIN_HEADER

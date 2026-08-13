@@ -1,0 +1,119 @@
+Removed Pin From Net: NetName=+3V3 Pin=BZ1-1
+Removed Pin From Net: NetName=+3V3 Pin=BZ1-1
+Removed Pin From Net: NetName=+3V3 Pin=D13-C
+Removed Pin From Net: NetName=GND Pin=I1-1
+Removed Pin From Net: NetName=+3V3 Pin=I1-2
+Removed Pin From Net: NetName=I2C_SDA Pin=I1-3
+Removed Pin From Net: NetName=I2C_SCL Pin=I1-4
+Removed Pin From Net: NetName=GND Pin=Q1-1
+Removed Pin From Net: NetName=I2C_SDA Pin=R19-1
+Removed Pin From Net: NetName=+3V3 Pin=R19-2
+Removed Pin From Net: NetName=I2C_SCL Pin=R20-1
+Removed Pin From Net: NetName=+3V3 Pin=R20-2
+Removed Pin From Net: NetName=I2C_SDA Pin=U1-GP20
+Removed Pin From Net: NetName=I2C_SDA Pin=U1-GP20
+Removed Pin From Net: NetName=I2C_SCL Pin=U1-GP21
+Removed Pin From Net: NetName=I2C_SCL Pin=U1-GP21
+Removed Member From Class: ClassName=[03] - MICROCONTROLLER Member=BZ1
+Removed Member From Class: ClassName=[03] - MICROCONTROLLER Member=I1
+Removed Member From Class: ClassName=[03] - MICROCONTROLLER Member=R19
+Removed Member From Class: ClassName=[03] - MICROCONTROLLER Member=R20
+Change Component Footprint: Designator=D13 Old Footprint=DIOAD1060W80L520D270 New Footprint=SODFL3618X110N
+Change Component Footprint: Designator=Q1 Old Footprint=TO92127P495H495-3 New Footprint=SOT-23-3
+Change Component Comment : Designator=D13 Old Comment=1N4007 New Comment=1N4007FL
+Change Component Comment : Designator=Q1 Old Comment=2N3904 New Comment=BC848BLT1G
+Change component parameters: Designator = "D13" ("D13"); Footprint = "DIOAD1060W80L520D270"; UniqueID = "\ACTZWDHE" ("\ACTZWDHE")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/1N4007FL/SMC/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "SMC Diode Solutions"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "1N4007FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1N4007FL/SMC/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "TO92127P495H495-3"; UniqueID = "\RMRFGLHP" ("\RMRFGLHP")
+Change component parameters (AddParameter): Name = ".Mounting"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = ".PCBChecked"; Value = "Lucas Vieira"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = ".SCHChecked"; Value = "Lucas Vieira"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category 1"; Value = "BJTs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Clock Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Collector Base Voltage (VCBO)"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Collector Emitter Breakdown Voltage"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Collector Emitter Saturation Voltage"; Value = "600mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Collector Emitter Voltage (VCEO)"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Collector-emitter Voltage-Max"; Value = "600mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/15139/getdatasheetpartid-87781-15139134.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/15139/getdatasheetpartid-87781-15139134.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/7971/bc846alt1-d-7971962.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/7971/bc846alt1-d-7971962.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/7971/bc846alt1-d-7971960.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/7971/bc846alt1-d-7971960.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/11204/bc846alt1-d-11204358.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/11204/bc846alt1-d-11204358.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5Description"; Value = "https://datasheet.ciiva.com/11198/bc846alt1-d-11198026.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5URL"; Value = "https://datasheet.ciiva.com/11198/bc846alt1-d-11198026.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink6Description"; Value = "https://datasheet.ciiva.com/976/bc846alt1-d-976387.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink6URL"; Value = "https://datasheet.ciiva.com/976/bc846alt1-d-976387.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink7Description"; Value = "https://datasheet.ciiva.com/976/bc846alt1-d-976388.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink7URL"; Value = "https://datasheet.ciiva.com/976/bc846alt1-d-976388.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink8Description"; Value = "https://datasheet.ciiva.com/976/bc846alt1-d-976386.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink8URL"; Value = "https://datasheet.ciiva.com/976/bc846alt1-d-976386.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin,Matte"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "100mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Description 1"; Value = "NPN Ic=100mA Vceo=30V hfe=200~450 P=225mW SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Emitter Base Voltage (VEBO)"; Value = "5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gain Bandwidth Product"; Value = "100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "hFE Min"; Value = "200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "2.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 3"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "BC848BLT1G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "SBC848BLT1G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 3"; Value = "BC848B,215"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Breakdown Voltage"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Collector Current"; Value = "100mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "300mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Elements"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "300mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0,14, 10=0,131, 100=0,0712, 500=0,04384, 1000=0,02989 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reach SVHC Compliant"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS 1"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "199953"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "BC848BLT1GOSCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Transition Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "30V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "1.3mm"; VariantName = "[No Variations]"
+Added Component: Designator=BZ?(CUI_CCG-1206)
+Add component (AddParameter): Name = ".Mounting"; Value = "PTH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CCG-1206/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CCG-1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CCG-1206/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin BZ?-1
+Add Pin To Net: Unknown Pin: Pin BZ?-2
+Added Pin To Net: NetName=+3V3 Pin=D13-1
+Added Pin To Net: NetName=I2C_SDA Pin=D13-2
+Added Pin To Net: NetName=I2C_SCL Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=I2C_SDA Pin=Q1-3
+Added Pin To Net: NetName=I2C_SCL Pin=R1-2
+Change Net Name : Old Net Name=I2C_SCL New Net Name=NetQ1_1
+Change Net Name : Old Net Name=I2C_SDA New Net Name=NetBZ?_2
+Added Member To Class: ClassName=[03] - MICROCONTROLLER Member=Component BZ? CCG-1206

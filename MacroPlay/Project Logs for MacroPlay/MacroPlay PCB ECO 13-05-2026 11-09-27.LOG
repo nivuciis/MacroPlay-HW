@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=ENCODER_PUSH Pin=D13-1
+Removed Pin From Net: NetName=GND Pin=D13-2
+Removed Pin From Net: NetName=GND Pin=D25-1
+Removed Pin From Net: NetName=SW9 Pin=D25-2
+Removed Pin From Net: NetName=+VBUS Pin=D25-3
+Removed Pin From Net: NetName=SW10 Pin=D25-4
+Removed Member From Class: ClassName=[03] - MICROCONTROLLER Member=D13
+Removed Member From Class: ClassName=[05] - LEDS Member=D25
+Change Component Designator: OldDesignator=D9 NewDesignator=D10
+Change Component Designator: OldDesignator=D10 NewDesignator=D11
+Change Component Designator: OldDesignator=D11 NewDesignator=D12
+Change Component Designator: OldDesignator=D12 NewDesignator=D13
+Added Component: Designator=D9(LED_SK6812-E)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SK6812-E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VBUS Pin=D9-1
+Added Pin To Net: NetName=SW10 Pin=D9-2
+Added Pin To Net: NetName=GND Pin=D9-3
+Added Pin To Net: NetName=SW9 Pin=D9-4
+Added Member To Class: ClassName=[05] - LEDS Member=Component D12 SK6812-E

@@ -1,9 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ViniCarvalho\Desktop\MacroPlay-HW\MacroPlay\MacroPlay.PcbDoc
-Date     : 30/04/2026
-Time     : 12:25:40
+Date     : 15/05/2026
+Time     : 15:39:32
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsBoardCutoutRegion),(IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -15,7 +18,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Processing Rule : Width Constraint (Min=0.16mm) (Max=10mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
@@ -33,6 +36,9 @@ Rule Violations :0
 Processing Rule : Silk To Solder Mask (Clearance=0.16mm) (IsPad),(All)
 Rule Violations :0
 
+Processing Rule : Silk to Silk (Clearance=0mm) (OnLayer('Top Overlay')),((IsText OR IsTrack) AND OnLayer('Top Overlay'))
+Rule Violations :0
+
 Processing Rule : Silk to Silk (Clearance=0mm) (OnLayer('Bottom Overlay')),((IsText OR IsTrack) AND OnLayer('Bottom Overlay'))
 Rule Violations :0
 
@@ -42,7 +48,7 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+3V3 Pin=BZ1-1
+Removed Pin From Net: NetName=NetBZ1_2 Pin=BZ1-2
+Removed Pin From Net: NetName=+3V3 Pin=D13-1
+Change Component Footprint: Designator=BZ1 Old Footprint=XDCR_PS1240P02BT New Footprint=CUI_CMI-1275C-050
+Change Component Comment : Designator=BZ1 Old Comment=PS1240P02BT New Comment=CMI-1275C-050
+Change component parameters: Designator = "BZ1" ("BZ1"); Footprint = "XDCR_PS1240P02BT"; UniqueID = "\BPQQWOJK" ("\BPQQWOJK")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CMI-1275C-050/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CMI-1275C-050"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CMI-1275C-050/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBZ1_2 Pin=BZ1-N
+Added Pin To Net: NetName=+VBUS Pin=BZ1-P
+Added Pin To Net: NetName=+VBUS Pin=D13-1
+Change Net Name : Old Net Name=NetBZ1_2 New Net Name=NetBZ1_N
