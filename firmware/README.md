@@ -1,11 +1,11 @@
 # Firmware
 
-Código CircuitPython do MacroPlay.
+MacroPlay CircuitPython code.
 
-| Arquivo | Função |
+| File | Purpose |
 | --- | --- |
-| `boot.py` | Define os dispositivos USB (HID, MIDI, serial) e o modo do sistema de arquivos |
-| `code.py` | Lê teclas e encoder, executa as ações dos perfis, controla LEDs e buzzer |
-| `lib/` | Bibliotecas do CircuitPython (adafruit_hid, neopixel e outras) |
+| `boot.py` | Sets up the USB devices (HID, MIDI, serial) and the filesystem mode |
+| `code.py` | Reads keys and encoder, runs profile actions, drives LEDs and buzzer |
+| `lib/` | CircuitPython libraries (adafruit_hid, neopixel and others) |
 
-Registre a versão do CircuitPython usada em cada release.
+Record the CircuitPython version used in each release.

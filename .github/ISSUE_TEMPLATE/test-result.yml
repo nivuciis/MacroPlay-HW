@@ -1,0 +1,37 @@
+name: Test result
+description: Report the result of a feature, profile or hardware test
+title: "[Test] "
+labels: ["test-result"]
+body:
+  - type: input
+    id: issue
+    attributes:
+      label: Related issue
+      placeholder: "#12"
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware and CircuitPython version
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and program tested
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Worked as expected
+        - Worked with caveats
+        - Did not work
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details, issues and media
+      description: Drag photos, GIFs or videos here.

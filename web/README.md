@@ -1,8 +1,8 @@
-# Página de configuração
+# Configuration page
 
-HTML que fica dentro da unidade `CIRCUITPY` e permite configurar as teclas pelo navegador, sem instalar programas.
+HTML page stored on the `CIRCUITPY` drive that lets you configure the keys from the browser, with no software to install.
 
-- **Modo simples:** escolher a tecla e uma ação pronta para `on_press` e `on_release`.
-- **Modo avançado:** ações em Python para automações próprias.
+- **Simple mode:** pick a key and a ready-made action for `on_press` and `on_release`.
+- **Advanced mode:** Python actions for your own automations.
 
-Funciona melhor no Chrome ou Edge, que suportam Web Serial.
+Works best in Chrome or Edge, which support Web Serial.

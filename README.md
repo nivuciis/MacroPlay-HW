@@ -1,56 +1,56 @@
 # MacroPlay
 
-Teclado de macros aberto com 12 teclas, LED RGB em cada tecla, encoder rotativo e buzzer, baseado em um devkit RP2040 com 16 MB de flash. Funciona com CircuitPython e é configurado por uma página HTML que fica dentro do próprio teclado, sem instalar nenhum programa.
+Open macro keyboard with 12 keys, an RGB LED under each key, a rotary encoder and a buzzer, built around an RP2040 devkit with 16 MB of flash. It runs CircuitPython and is configured through an HTML page stored on the keyboard itself, with no software to install.
 
-O MacroPlay é pensado para três públicos: quem quer atalhos prontos para os programas que usa, quem programa e quer automações próprias, e pessoas com deficiência motora ou visual que precisam de um teclado adaptável.
+MacroPlay is designed for three audiences: people who want ready-made shortcuts for the programs they use, programmers who want their own automations, and people with motor or visual disabilities who need an adaptable keyboard.
 
-## O que ele faz
+## What it does
 
-| Recurso | Para quê |
+| Feature | Purpose |
 | --- | --- |
-| Teclado, mouse e teclas de mídia (USB HID) | Atalhos, textos prontos, volume, controle do cursor |
-| Gamepad HID | Controle para emuladores e jogos |
-| USB MIDI | Controlador musical: as 12 teclas formam uma oitava |
-| Serial USB | Comunicação com a página de configuração e com scripts no PC |
-| 12 LEDs RGB | Cor por tecla, perfil ativo e estados |
-| Buzzer (ativo) | Confirmações sonoras por ritmo e duração dos bipes |
-| Encoder | Volume, zoom, linha do tempo, troca de perfil |
+| Keyboard, mouse and media keys (USB HID) | Shortcuts, text snippets, volume, cursor control |
+| HID gamepad | Controller for emulators and games |
+| USB MIDI | Music controller: the 12 keys form one octave |
+| USB serial | Communication with the configuration page and with scripts on the PC |
+| 12 RGB LEDs | Per-key color, active profile and status |
+| Buzzer (active) | Audio feedback through beep rhythm and duration |
+| Encoder | Volume, zoom, timeline, profile switching |
 
-## Estrutura do repositório
+## Repository layout
 
-| Pasta | Conteúdo |
+| Folder | Contents |
 | --- | --- |
-| [`hardware/`](hardware/) | Esquemático, PCB, BoM e arquivos de fabricação |
-| [`firmware/`](firmware/) | `code.py`, `boot.py` e bibliotecas do CircuitPython |
-| [`web/`](web/) | Página HTML de configuração |
-| [`profiles/`](profiles/) | Perfis prontos em JSON para programas e jogos |
-| [`3d/`](3d/) | Case, colmeia de acessibilidade e keycaps táteis |
-| [`docs/`](docs/) | Site do projeto (GitHub Pages) e relatórios de teste |
+| [`hardware/`](hardware/) | Schematic, PCB, BoM and manufacturing files |
+| [`firmware/`](firmware/) | `code.py`, `boot.py` and CircuitPython libraries |
+| [`web/`](web/) | HTML configuration page |
+| [`profiles/`](profiles/) | Ready-made JSON profiles for programs and games |
+| [`3d/`](3d/) | Case, accessibility keyguard and tactile keycaps |
+| [`docs/`](docs/) | Project website (GitHub Pages) and test reports |
 
-## Começando
+## Getting started
 
-1. Instale o CircuitPython na placa (segure BOOT, conecte o USB e arraste o arquivo `.uf2` para a unidade `RPI-RP2`).
-2. Baixe a versão mais recente em **Releases** e copie o conteúdo de `firmware/` e `web/` para a unidade `CIRCUITPY`.
-3. Abra a página de configuração que aparece na unidade e escolha um perfil ou configure cada tecla.
+1. Install CircuitPython on the board (hold BOOT, plug in the USB cable and drag the `.uf2` file onto the `RPI-RP2` drive).
+2. Download the latest version from **Releases** and copy the contents of `firmware/` and `web/` to the `CIRCUITPY` drive.
+3. Open the configuration page on the drive and pick a profile or configure each key.
 
 ## Roadmap
 
-O desenvolvimento está dividido em quatro fases, cada uma com um milestone e as issues correspondentes:
+Development is split into four phases, each with a milestone and its issues:
 
-1. **Base da plataforma:** formato dos perfis em JSON, modo simples e avançado, layout ABNT2, modo competitivo.
-2. **Perfis prontos:** Altium, Blender, Fusion 360, jogos, reuniões, OBS e jogos no próprio teclado.
-3. **Acessibilidade e música:** teclas de aderência, filtro de tremor, integração com NVDA, MIDI.
-4. **Navegador, IA e comunidade:** emulador no navegador, configurador com IA e galeria de perfis.
+1. **Platform foundation:** JSON profile format, simple and advanced modes, Brazilian ABNT2 layout, competitive mode.
+2. **Ready-made profiles:** Altium, Blender, Fusion 360, games, meetings, OBS and games on the keyboard itself.
+3. **Accessibility and music:** sticky keys, tremor filter, NVDA integration, MIDI.
+4. **Browser, AI and community:** in-browser emulator, AI configurator and profile gallery.
 
-Acompanhe o andamento na aba **Milestones** e no quadro em **Projects**.
+Follow the progress in the **Milestones** tab and on the **Projects** board.
 
-## Contribuindo
+## Contributing
 
-Ideias, perfis novos e resultados de teste são bem-vindos. Abra uma issue usando um dos modelos (**Ideia** ou **Resultado de teste**). Perfis novos entram como pull request na pasta `profiles/`.
+Ideas, new profiles and test results are welcome. Open an issue using one of the templates (**Idea** or **Test result**). New profiles go in as pull requests to the `profiles/` folder.
 
-Em jogos online, os perfis seguem a regra **uma tecla, uma ação**. Perfis com sequências automáticas ou repetição não são aceitos para jogos competitivos, porque podem causar banimento.
+In online games, profiles follow the **one key, one action** rule. Profiles with automatic sequences or repetition are not accepted for competitive games, because they can lead to bans.
 
-## Licenças
+## Licenses
 
 - Hardware (`hardware/`, `3d/`): [CERN-OHL-S v2](LICENSE-HARDWARE)
-- Firmware, página web, perfis e documentação: [MIT](LICENSE)
+- Firmware, web page, profiles and documentation: [MIT](LICENSE)
