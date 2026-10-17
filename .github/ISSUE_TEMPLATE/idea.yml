@@ -1,0 +1,33 @@
+name: Idea
+description: Suggest a new feature, profile or use for MacroPlay
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What should MacroPlay do?
+      description: Describe the feature and who benefits from it.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Program profiles
+        - Games
+        - Accessibility
+        - Music
+        - Browser emulator
+        - Fun
+        - Productivity
+        - Education
+        - Hardware
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: keys
+    attributes:
+      label: Suggested keys and actions (optional)

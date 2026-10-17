@@ -1,24 +1,24 @@
-# Perfis
+# Profiles
 
-Cada perfil é um arquivo JSON com nome, cor, as 12 teclas e as 3 ações do encoder.
+Each profile is a JSON file with a name, a color, the 12 keys and the 3 encoder actions.
 
 ```json
 {
-  "nome": "Blender",
-  "cor": "#F5792A",
-  "teclas": {
-    "1": { "rotulo": "Frente", "on_press": [{ "tipo": "tecla", "teclas": ["KEYPAD_ONE"] }], "on_release": [] }
+  "name": "Blender",
+  "color": "#F5792A",
+  "keys": {
+    "1": { "label": "Front", "on_press": [{ "type": "key", "keys": ["KEYPAD_ONE"] }], "on_release": [] }
   },
   "encoder": {
-    "horario":      [{ "tipo": "tecla", "teclas": ["RIGHT_ARROW"] }],
-    "anti_horario": [{ "tipo": "tecla", "teclas": ["LEFT_ARROW"] }],
-    "clique":       [{ "tipo": "tecla", "teclas": ["SPACE"] }]
+    "clockwise":        [{ "type": "key", "keys": ["RIGHT_ARROW"] }],
+    "counterclockwise": [{ "type": "key", "keys": ["LEFT_ARROW"] }],
+    "click":            [{ "type": "key", "keys": ["SPACE"] }]
   }
 }
 ```
 
-O formato definitivo será fixado ao fim da Fase 1 do roadmap. Até lá, ele pode mudar.
+The final format will be frozen at the end of Phase 1 of the roadmap. Until then, it may change.
 
-## Regras para perfis de jogos online
+## Rules for online game profiles
 
-Uma tecla, uma ação. Nada de sequências automáticas, repetição ou atrasos em perfis marcados como jogo online.
+One key, one action. No automatic sequences, repetition or delays in profiles marked as online games.

@@ -3,15 +3,15 @@ layout: home
 title: MacroPlay
 ---
 
-Teclado de macros aberto com 12 teclas RGB, encoder e buzzer, configurado por uma página que fica dentro do próprio teclado.
+Open macro keyboard with 12 RGB keys, an encoder and a buzzer, configured through a page stored on the keyboard itself.
 
-## Para quem é
+## Who it is for
 
-- **Quem usa programas profissionais:** perfis prontos para Altium Designer, Blender, Fusion 360 e outros.
-- **Gamers:** perfis que respeitam a regra de uma tecla, uma ação.
-- **Pessoas com deficiência motora ou visual:** teclas de aderência, filtro de tremor e confirmações sonoras.
-- **Quem programa:** ações em Python para automações próprias.
+- **Professional software users:** ready-made profiles for Altium Designer, Blender, Fusion 360 and more.
+- **Gamers:** profiles that follow the one key, one action rule.
+- **People with motor or visual disabilities:** sticky keys, tremor filter and audio feedback.
+- **Programmers:** Python actions for your own automations.
 
-## Resultados de testes
+## Test results
 
-Os relatórios de cada teste ficam na pasta [`testes`](testes/) e nas issues do repositório.
+Reports for each test are kept in the [`tests`](tests/) folder and in the repository issues.

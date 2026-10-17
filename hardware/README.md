@@ -1,61 +1,32 @@
-# MacroPlay-HW
+# MacroPlay hardware
 
-MacroPlay-HW é um teclado macro open-source projetado para automações e personalização. Ideal para criadores, jogadores e profissionais que querem controlar fluxos de trabalho com teclas programáveis e efeitos visuais.
+MacroPlay is an open-source macro keyboard designed for automation and customization. It is aimed at creators, gamers and professionals who want to control their workflows with programmable keys and lighting effects.
 
-## Características principais
-- 12 teclas programáveis (teclas principais)
-- 4 teclas de perfil para alternar conjuntos de macros
-- Encoder rotativo configurável
-- Buzzer para feedback sonoro
-- LEDs RGB endereçáveis em cada tecla
-- Projeto Open-Source: hardware, esquemáticos e firmware liberados para modificação
+## Main features
 
-## Filosofia
-Este projeto incentiva a modificação e personalização. Você pode adaptar hardware, trocar firmwares, remapear teclas, criar novos efeitos de LED e compartilhar suas melhorias.
+- 12 programmable keys (main keys)
+- 4 profile keys to switch between macro sets
+- Configurable rotary encoder
+- Buzzer for audio feedback
+- Addressable RGB LEDs on every key
+- Open source: hardware and schematics are released for modification
 
-## Firmware & Software
-Firmware baseado em código aberto: CircuitPython rodando em Raspberry Pi Pico — este repositório é somente para o hardware; o firmware (CircuitPython) e exemplos de software estarão em repositórios separados.
-### Firmware & tools — English
+## Philosophy
 
-Open-source firmware: CircuitPython running on a Raspberry Pi Pico — this repository is for hardware only; firmware (CircuitPython) and software examples will be published in separate repositories.
+This project encourages modification and customization. You can adapt the hardware, swap the firmware, remap keys, create new LED effects and share your improvements.
 
-- Support for multiple profiles and automation scripts
-- Build and flashing tooling will be documented in the firmware repo
+## Contents
 
-### Website & community — English
+The Altium Designer project is in [`MacroPlay/`](MacroPlay/): schematics, PCB, libraries, BoM, the schematic PDF (`MacroPlay.pdf`), the 3D model of the board (`MacroPlay.step`) and the manufacturing outputs (Gerber, NC drill and ODB++) in `Project Outputs for MacroPlay/`.
 
-Planned resources to:
-- Share automations and scripts
-- Publish layouts and profiles
-- Exchange tips, contributions and derivative projects
+## Firmware and software
 
-(More info coming — website in development)
+The firmware runs CircuitPython on the RP2040. It lives in this same repository, in [`firmware/`](../firmware/), together with the configuration page in [`web/`](../web/) and the profiles in [`profiles/`](../profiles/).
 
+## Contributing
 
-### Contributing — English
+Contributions are welcome: issues, pull requests, alternative designs, new firmware and tutorials. Document your changes and include tests when applicable.
 
-Contributions welcome: issues, pull requests, alternative designs, new firmwares and tutorials. Document changes and include tests when applicable.
+## License
 
-### License — English
-
-Open project — a permissive license is recommended (e.g., MIT). Adjust as needed.
-
-Feel free to customize everything — this project is meant to be adapted to your workflow.
-- Suporte a múltiplos perfis e scripts de automação
-- Tooling para compilação e gravação será documentado no repositório
-
-## Site & Comunidade
-Planejamos um site e uma comunidade para:
-- Compartilhar automações e scripts
-- Publicar layouts e perfis
-- Trocar dicas, contribuições e projetos derivados
-
-(Mais informações em breve — site em desenvolvimento)
-Detalhes de pinout, esquemáticos e instruções de gravação estão no repositório.
-
-## Contribuindo
-Contribuições são bem-vindas: issues, pull requests, designs alternativos, novos firmwares e tutoriais. Documente alterações e inclua testes quando pertinente.
-
----
-
-Sinta-se livre para personalizar tudo — este projeto existe para ser adaptado ao seu fluxo de trabalho.
+See the [Licenses](../README.md#licenses) section of the main README.
