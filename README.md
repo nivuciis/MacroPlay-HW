@@ -1,61 +1,56 @@
-# MacroPlay-HW
+# MacroPlay
 
-MacroPlay-HW é um teclado macro open-source projetado para automações e personalização. Ideal para criadores, jogadores e profissionais que querem controlar fluxos de trabalho com teclas programáveis e efeitos visuais.
+Open macro keyboard with 12 keys, an RGB LED under each key, a rotary encoder and a buzzer, built around an RP2040 devkit with 16 MB of flash. It runs CircuitPython and is configured through an HTML page stored on the keyboard itself, with no software to install.
 
-## Características principais
-- 12 teclas programáveis (teclas principais)
-- 4 teclas de perfil para alternar conjuntos de macros
-- Encoder rotativo configurável
-- Buzzer para feedback sonoro
-- LEDs RGB endereçáveis em cada tecla
-- Projeto Open-Source: hardware, esquemáticos e firmware liberados para modificação
+MacroPlay is designed for three audiences: people who want ready-made shortcuts for the programs they use, programmers who want their own automations, and people with motor or visual disabilities who need an adaptable keyboard.
 
-## Filosofia
-Este projeto incentiva a modificação e personalização. Você pode adaptar hardware, trocar firmwares, remapear teclas, criar novos efeitos de LED e compartilhar suas melhorias.
+## What it does
 
-## Firmware & Software
-Firmware baseado em código aberto: CircuitPython rodando em Raspberry Pi Pico — este repositório é somente para o hardware; o firmware (CircuitPython) e exemplos de software estarão em repositórios separados.
-### Firmware & tools — English
+| Feature | Purpose |
+| --- | --- |
+| Keyboard, mouse and media keys (USB HID) | Shortcuts, text snippets, volume, cursor control |
+| HID gamepad | Controller for emulators and games |
+| USB MIDI | Music controller: the 12 keys form one octave |
+| USB serial | Communication with the configuration page and with scripts on the PC |
+| 12 RGB LEDs | Per-key color, active profile and status |
+| Buzzer (active) | Audio feedback through beep rhythm and duration |
+| Encoder | Volume, zoom, timeline, profile switching |
 
-Open-source firmware: CircuitPython running on a Raspberry Pi Pico — this repository is for hardware only; firmware (CircuitPython) and software examples will be published in separate repositories.
+## Repository layout
 
-- Support for multiple profiles and automation scripts
-- Build and flashing tooling will be documented in the firmware repo
+| Folder | Contents |
+| --- | --- |
+| [`hardware/`](hardware/) | Schematic, PCB, BoM and manufacturing files |
+| [`firmware/`](firmware/) | `code.py`, `boot.py` and CircuitPython libraries |
+| [`web/`](web/) | HTML configuration page |
+| [`profiles/`](profiles/) | Ready-made JSON profiles for programs and games |
+| [`3d/`](3d/) | Case, accessibility keyguard and tactile keycaps |
+| [`docs/`](docs/) | Project website (GitHub Pages) and test reports |
 
-### Website & community — English
+## Getting started
 
-Planned resources to:
-- Share automations and scripts
-- Publish layouts and profiles
-- Exchange tips, contributions and derivative projects
+1. Install CircuitPython on the board (hold BOOT, plug in the USB cable and drag the `.uf2` file onto the `RPI-RP2` drive).
+2. Download the latest version from **Releases** and copy the contents of `firmware/` and `web/` to the `CIRCUITPY` drive.
+3. Open the configuration page on the drive and pick a profile or configure each key.
 
-(More info coming — website in development)
+## Roadmap
 
+Development is split into four phases, each with a milestone and its issues:
 
-### Contributing — English
+1. **Platform foundation:** JSON profile format, simple and advanced modes, Brazilian ABNT2 layout, competitive mode.
+2. **Ready-made profiles:** Altium, Blender, Fusion 360, games, meetings, OBS and games on the keyboard itself.
+3. **Accessibility and music:** sticky keys, tremor filter, NVDA integration, MIDI.
+4. **Browser, AI and community:** in-browser emulator, AI configurator and profile gallery.
 
-Contributions welcome: issues, pull requests, alternative designs, new firmwares and tutorials. Document changes and include tests when applicable.
+Follow the progress in the **Milestones** tab and on the **Projects** board.
 
-### License — English
+## Contributing
 
-Open project — a permissive license is recommended (e.g., MIT). Adjust as needed.
+Ideas, new profiles and test results are welcome. Open an issue using one of the templates (**Idea** or **Test result**). New profiles go in as pull requests to the `profiles/` folder.
 
-Feel free to customize everything — this project is meant to be adapted to your workflow.
-- Suporte a múltiplos perfis e scripts de automação
-- Tooling para compilação e gravação será documentado no repositório
+In online games, profiles follow the **one key, one action** rule. Profiles with automatic sequences or repetition are not accepted for competitive games, because they can lead to bans.
 
-## Site & Comunidade
-Planejamos um site e uma comunidade para:
-- Compartilhar automações e scripts
-- Publicar layouts e perfis
-- Trocar dicas, contribuições e projetos derivados
+## Licenses
 
-(Mais informações em breve — site em desenvolvimento)
-Detalhes de pinout, esquemáticos e instruções de gravação estão no repositório.
-
-## Contribuindo
-Contribuições são bem-vindas: issues, pull requests, designs alternativos, novos firmwares e tutoriais. Documente alterações e inclua testes quando pertinente.
-
----
-
-Sinta-se livre para personalizar tudo — este projeto existe para ser adaptado ao seu fluxo de trabalho.
+- Hardware (`hardware/`, `3d/`): [CERN-OHL-S v2](LICENSE-HARDWARE)
+- Firmware, web page, profiles and documentation: [MIT](LICENSE)
