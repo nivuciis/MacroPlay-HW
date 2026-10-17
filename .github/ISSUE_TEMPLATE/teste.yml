@@ -1,0 +1,37 @@
+name: Resultado de teste
+description: Registre o resultado de um teste de função, perfil ou hardware
+title: "[Teste] "
+labels: ["resultado-de-teste"]
+body:
+  - type: input
+    id: issue
+    attributes:
+      label: Issue relacionada
+      placeholder: "#12"
+  - type: input
+    id: firmware
+    attributes:
+      label: Versão do firmware e do CircuitPython
+    validations:
+      required: true
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema operacional e programa testado
+    validations:
+      required: true
+  - type: dropdown
+    id: resultado
+    attributes:
+      label: Resultado
+      options:
+        - Funcionou como esperado
+        - Funcionou com ressalvas
+        - Não funcionou
+    validations:
+      required: true
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes, problemas e mídia
+      description: Arraste fotos, GIFs ou vídeos para cá.
